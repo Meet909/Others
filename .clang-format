@@ -1,0 +1,40 @@
+# === GENERAL CODE STYLE ===
+BasedOnStyle: LLVM
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+
+# === BRACE STYLE (ALLMAN) ===
+BreakBeforeBraces: Allman
+
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: true
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+
+# === SPACING RULES ===
+SpaceBeforeParens: ControlStatements
+PointerAlignment: Left
+
+# === FUNCTION PARAMETERS & ARGUMENT LIST ===
+BinPackArguments: false
+BinPackParameters: false
+
+# === INDENTATION RULES ===
+IndentCaseBlocks: true
+IndentCaseLabels: true
+IndentPPDirectives: AfterHash
+
+# === COMMENTS (for team reference only) ===
+# Naming Convention Guide:
+# - Constants:          UPPER_CASE
+# - Classes/structs:    PascalCase
+# - Variables/functions: snake_case
+# - Members:            m_variable_name (m_ prefix)
+
